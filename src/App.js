@@ -107,6 +107,7 @@ const App = () => {
       clearInterval(timeout.current)
     }
   }, [refreshTime])
+
   return (
     <div className="App">
       <Select
